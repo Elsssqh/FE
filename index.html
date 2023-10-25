@@ -14,7 +14,7 @@
         <p><center> Nim: <input type="text" ng-model="nim"></center></p>
         <p><center> {{nim}}</center></p>
         <p><center> Masukkan Nama Lengkap Anda : </center></p>
-        <p><center> Nama saya: <input type="text" ng-model="name + last"></center></p>
+        <p><center> Nama saya: <input type="text" ng-model="name"></center></p>
         <p><center> {{name + ' ' + last}} </center></p>
         <p><center> Masukkan Hobby Anda : </center></p>
         <p><center> Hobby: <input type ="text" ng-model="hobby"></center></p>
@@ -25,6 +25,23 @@
         <p><center> Masukkan Bahasa Pemrograman yang Dikuasai : </center></p>
         <p><center> Bahasa pemograman yang dikuasai: <input type="text" ng-model="bahasa"> </center></p>
         <p><center> {{bahasa}}</center></p>
+        <br>
+
+        <p><center> Masukkan NIM Anda : </center></p>
+        <p><center>NIM Saya: <input type="text" ng-model=" nim3"></center> </p>
+        <p><center>{{nim3}}</center> </p>
+        <p><center> Masukkan Nama Lengkap Anda : </center></p>
+        <p><center>Nama Saya: <input type="text" ng-model=" name3"></center> </p>
+        <p><center>{{name3 + ' ' + last3}}</center> </p>
+        <p><center> Masukkan Hobby Anda : </center></p>
+        <p><center>Hobby Saya: <input type="text" ng-model=" hobby3"></center> </p>
+        <p><center>{{hobby3}}</center> </p>
+        <p><center> Masukkan Cita-Cita Anda : </center></p>
+        <p><center>Cita-cita Saya: <input type="text" ng-model=" cita3"></center> </p>
+        <p><center>{{cita3}}</center> </p>
+        <p><center> Masukkan Bahasa Pemograman Yang Anda Kuasai : </center></p>
+        <p><center> Bahasa Pemograman yang Dikuasai: <input type="text" ng-model=" bahasa3"></center> </p>
+        <p><center>{{bahasa3}}</center> </p>
         <br>
 
         <p><center> Masukkan NIM Anda : </center></p>
@@ -42,48 +59,56 @@
         <p><center> Masukkan Bahasa Pemrograman yang Dikuasai : </center></p>
         <p><center> Bahasa yang Saya Kuasai : <input type="text" ng-model="bahasa2"></center></p>
         <p><center> {{bahasa2}}</center> </p>
-
         <br>
+
         <p><center> Masukkan NIM Anda : </center></p>
-        <p><center>NIM Saya: <input type="text" ng-model=" nim"></center> </p>
-        <p><center>{{nim}}</center> </p>
+        <p><center> NIM Saya : <input type="text" ng-model="nim4"></center></p>
+        <p><center> {{nim4}}</center> </p>
         <p><center> Masukkan Nama Lengkap Anda : </center></p>
-        <p><center>Nama Saya: <input type="text" ng-model=" name"></center> </p>
-        <p><center>{{name + ' ' + last}}</center> </p>
+        <p><center> Nama Saya : <input type="text" ng-model="name4 + last4"></center></p>
+        <p><center> {{name4 + ' ' + last4}}</center> </p>
         <p><center> Masukkan Hobby Anda : </center></p>
-        <p><center>Hobby Saya: <input type="text" ng-model=" hobby"></center> </p>
-        <p><center>{{hobby}}</center> </p>
-        <p><center> Masukkan Cita-Cita Anda : </center></p>
-        <p><center>Cita-cita Saya: <input type="text" ng-model=" cita"></center> </p>
-        <p><center>{{cita}}</center> </p>
-        <p><center> Masukkan Bahasa Pemograman Yang Anda Kuasai : </center></p>
-        <p><center> Bahasa Pemograman yang Dikuasai: <input type="text" ng-model=" pemograman"></center> </p>
-        <p><center>{{pemograman}}</center> </p>
+        <p><center> Hobby Saya : <input type="text" ng-model="hobby4"></center></p>
+        <p><center> {{hobby4}}</center> </p>
+        <p><center> Masukkan Cita - Cita Saya : </center></p>
+        <p><center> Cita - Cita Saya : <input type="text" ng-model="cita4"></center></p>
+        <p><center> {{cita4}}</center> </p>
+        <p><center> Masukkan Bahasa Pemrograman yang Dikuasai : </center></p>
+        <p><center> Bahasa yang Saya Kuasai : <input type="text" ng-model="bahasa4"></center></p>
+        <p><center> {{bahasa4}}</center> </p>
+        <br>
     </div>
 
     <script> 
         var app = angular.module('myApp1', []);
         app.controller('myCtrl1', function($scope) {
             $scope.name="Elsie";
-            $scope.last=" Ng"; 
+            $scope.last=" Elsie"; 
             $scope.nim=" 535220076";
-            $scope.hobby=" ";
-            $scope.cita=" ";
-            $scope.bahasa=" ";
+            $scope.hobby= "Mendengarkan lagu";
+            $scope.cita= "Entrepreneur";
+            $scope.bahasa="C++, Java, HTML, CSS, Phyton, Oracel SQL";
 
-            $scope.name2="Chelsia";
-            $scope.last2=" Cindeleria"; 
+            $scope.nim3 = "535220081";
+            $scope.name3 = "Jechenthia Maria";
+            $scope.last3 =" Taso";
+            $scope.hobby3 = "Memasak, Menari, Menyanyi";
+            $scope.cita3 = " Pramugari";
+            $scope.bahasa3 = "C++, Java, HTML, CSS, Phyton, Oracel SQL";
+
+            $scope.name2= "Chelsia Cindeleria";
+            $scope.last2= " Herwanto"; 
             $scope.nim2=" 535220083";
-            $scope.hobby2="Mendengarkan Musik";
-            $scope.cita2="Jadi orang yang SUKSES";
+            $scope.hobby2= "Menonton Drachin, Drakor";
+            $scope.cita2= "Jadi orang yang SUKSES";
             $scope.bahasa2="C++, Java, Oracle SQL, Python, HTML, CSS";
 
-            $scope.nim = "535220081";
-            $scope.name = "Jechenthia Maria";
-            $scope.last =" Taso";
-            $scope.hobby = "Memasak, Menari, Menyanyi";
-            $scope.cita = " Pramugari";
-            $scope.pemograman = "C++, Java, HTML, CSS, Phyton, Oracel SQL";
+            $scope.name4="Widya";
+            $scope.last4=" Khaerunnisyah"; 
+            $scope.nim4=" 535220262";
+            $scope.hobby4="Membaca Komik";
+            $scope.cita4="Programmer";
+            $scope.bahasa4="C++, Java, Oracle SQL, Python, HTML, CSS";
 
         });
     </script>
