@@ -42,6 +42,23 @@
         <p><center> Masukkan Bahasa Pemrograman yang Dikuasai : </center></p>
         <p><center> Bahasa yang Saya Kuasai : <input type="text" ng-model="bahasa2"></center></p>
         <p><center> {{bahasa2}}</center> </p>
+
+        <br>
+        <p><center> Masukkan NIM Anda : </center></p>
+        <p><center>NIM Saya: <input type="text" ng-model=" nim"></center> </p>
+        <p><center>{{nim}}</center> </p>
+        <p><center> Masukkan Nama Lengkap Anda : </center></p>
+        <p><center>Nama Saya: <input type="text" ng-model=" name"></center> </p>
+        <p><center>{{name + ' ' + last}}</center> </p>
+        <p><center> Masukkan Hobby Anda : </center></p>
+        <p><center>Hobby Saya: <input type="text" ng-model=" hobby"></center> </p>
+        <p><center>{{hobby}}</center> </p>
+        <p><center> Masukkan Cita-Cita Anda : </center></p>
+        <p><center>Cita-cita Saya: <input type="text" ng-model=" cita"></center> </p>
+        <p><center>{{cita}}</center> </p>
+        <p><center> Masukkan Bahasa Pemograman Yang Anda Kuasai : </center></p>
+        <p><center> Bahasa Pemograman yang Dikuasai: <input type="text" ng-model=" pemograman"></center> </p>
+        <p><center>{{pemograman}}</center> </p>
     </div>
 
     <script> 
@@ -60,7 +77,15 @@
             $scope.hobby2="Mendengarkan Musik";
             $scope.cita2="Jadi orang yang SUKSES";
             $scope.bahasa2="C++, Java, Oracle SQL, Python, HTML, CSS";
-        })
+
+            $scope.nim = "535220081";
+            $scope.name = "Jechenthia Maria";
+            $scope.last =" Taso";
+            $scope.hobby = "Memasak, Menari, Menyanyi";
+            $scope.cita = " Pramugari";
+            $scope.pemograman = "C++, Java, HTML, CSS, Phyton, Oracel SQL";
+
+        });
     </script>
 </script>
 </body>
