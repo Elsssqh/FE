@@ -9,16 +9,39 @@
 <body>
     <script src="./angular.js"></script>
     <div ng-app="myApp1" ng-controller="myCtrl1">
-        <p> Nama saya: <input type="text" ng-model="name"></p>
-        <p> {{name + ' ' + last}} </p>
-        <p> Nim: <input type="text" ng-model="nim"></p>
-        <p> {{nim}}</p>
-        <p> Hobby: <input type ="text" ng-model="hobby"></p>
-        <p> {{hobby}} </p>
-        <p> Cita-cita: <input type="text" ng-model="cita"></p>
-        <p> {{cita}}</p>
-        <p> Bahasa pemograman yang dikuasai: <input type="text" ng-model="bahasa"> </p>
-        <p> {{bahasa}}</p>
+        <p><center> Nama Kelompok 1 : LoFE</center></p>
+        <p><center> Masukkan NIM Anda : </center></p>
+        <p><center> Nim: <input type="text" ng-model="nim"></center></p>
+        <p><center> {{nim}}</center></p>
+        <p><center> Masukkan Nama Lengkap Anda : </center></p>
+        <p><center> Nama saya: <input type="text" ng-model="name + last"></center></p>
+        <p><center> {{name + ' ' + last}} </center></p>
+        <p><center> Masukkan Hobby Anda : </center></p>
+        <p><center> Hobby: <input type ="text" ng-model="hobby"></center></p>
+        <p><center> {{hobby}} </center></p>
+        <p><center> Masukkan Cita - Cita Saya : </center></p>
+        <p><center> Cita-cita: <input type="text" ng-model="cita"></center></p>
+        <p><center> {{cita}}</center></p>
+        <p><center> Masukkan Bahasa Pemrograman yang Dikuasai : </center></p>
+        <p><center> Bahasa pemograman yang dikuasai: <input type="text" ng-model="bahasa"> </center></p>
+        <p><center> {{bahasa}}</center></p>
+        <br>
+
+        <p><center> Masukkan NIM Anda : </center></p>
+        <p><center> NIM Saya : <input type="text" ng-model="nim2"></center></p>
+        <p><center> {{nim2}}</center> </p>
+        <p><center> Masukkan Nama Lengkap Anda : </center></p>
+        <p><center> Nama Saya : <input type="text" ng-model="name2 + last2"></center></p>
+        <p><center> {{name2 + ' ' + last2}}</center> </p>
+        <p><center> Masukkan Hobby Anda : </center></p>
+        <p><center> Hobby Saya : <input type="text" ng-model="hobby2"></center></p>
+        <p><center> {{hobby2}}</center> </p>
+        <p><center> Masukkan Cita - Cita Saya : </center></p>
+        <p><center> Cita - Cita Saya : <input type="text" ng-model="cita2"></center></p>
+        <p><center> {{cita2}}</center> </p>
+        <p><center> Masukkan Bahasa Pemrograman yang Dikuasai : </center></p>
+        <p><center> Bahasa yang Saya Kuasai : <input type="text" ng-model="bahasa2"></center></p>
+        <p><center> {{bahasa2}}</center> </p>
     </div>
 
     <script> 
@@ -28,8 +51,15 @@
             $scope.last=" Ng"; 
             $scope.nim=" 535220076";
             $scope.hobby=" ";
-            $scope.cita="";
-            $scope.bahasa="";
+            $scope.cita=" ";
+            $scope.bahasa=" ";
+
+            $scope.name="Chelsia";
+            $scope.last=" Cindeleria"; 
+            $scope.nim=" 535220083";
+            $scope.hobby="Mendengarkan Musik";
+            $scope.cita="Jadi orang yang SUKSES";
+            $scope.bahasa="C++, Java, Oracle SQL, Python, HTML, CSS";
         })
     </script>
 </script>
