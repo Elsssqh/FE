@@ -8,30 +8,25 @@
 </head>
 <body>
     <script src="./angular.js"></script>
-    <div ng-app="myApp1" ng-controller="myCtrl1">
+    <div ng-app="myApp" ng-controller="myCtrl">
         <p> Nama saya: <input type="text" ng-model="name"></p>
         <p> {{name + ' ' + last}} </p>
         <p> Nim: <input type="text" ng-model="nim"></p>
         <p> {{nim}}</p>
         <p> Hobby: <input type ="text" ng-model="hobby"></p>
-        <p> {{hobby}} </p>
-        <p> Cita-cita: <input type="text" ng-model="cita"></p>
-        <p> {{cita}}</p>
-        <p> Bahasa pemograman yang dikuasai: <input type="text" ng-model="bahasa"> </p>
-        <p> {{bahasa}}</p>
+        <p> {{Hobby}} </p>
     </div>
 
     <script> 
-        var app = angular.module('myApp1', []);
-        app.controller('myCtrl1', function($scope) {
+        var app = angular.module('myApp', []);
+        app.controller('myCtrl', function($scope) {
             $scope.name="Elsie";
-            $scope.last=" Ng"; 
-            $scope.nim=" 535220076";
+            $scope.last=" "; 
+            $scope.nim=" ";
             $scope.hobby=" ";
-            $scope.cita="";
-            $scope.bahasa="";
         })
     </script>
 </script>
+
 </body>
 </html>
