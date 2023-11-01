@@ -1,6 +1,39 @@
-body {
-    background-color: #faf9db;
-    color: black;
+
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #efb1e6;
     font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+p {
+    margin: 10px 0;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+center p {
+    font-size: 18px;
+    color: #333;
+}
+
+div[ng-app="myApp1"] {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: 0 auto;
 }
