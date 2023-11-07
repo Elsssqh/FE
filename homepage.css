@@ -2,13 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: ''
+    font-family: sans-serif;
 }
 
 
 body {
     background-color: #290b24;
-    font-family: Arial, sans-serif;
     text-align: center;
 }
 
@@ -30,45 +29,19 @@ center p {
 }
 
 div[ng-app="myApp1"] {
-    
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     max-width: 600px;
     margin: 0 auto;
+    text-align: center;
 }
-
-.title{
-    background-color: #ccc;
-    font-size:larger;
-    font-weight:400;
+.cl1 {
+    /* width: 65em; */
+    border: none; 
+    padding: 30px 60px;
+    margin: 20px auto; 
+    background: linear-gradient(rgba(235, 179, 226, 0.5) 30%, rgba(234, 189, 227, 0.7));
+    border-radius: 15px; 
+    display: block;
 }
-
-.cl1{
-    background-color: #fac0c0;
-    width: 35em;
-    border: 1px solid #333;
-    padding: 8px 12px;
-}
-
-.cl2{
-    background-color: #fac0c0;
-    width: 35em;
-    border: 1px solid #333;
-    padding: 8px 12px;
-}
-
-.cl3{
-    background-color: #fac0c0;
-    width: 35em;
-    border: 1px solid #333;
-    padding: 8px 12px;
-}
-
-.cl4{
-    background-color: #fac0c0;
-    width: 35em;
-    border: 1px solid #333;
-    padding: 8px 12px;
-}
-
