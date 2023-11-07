@@ -1,8 +1,8 @@
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: ''
 }
 
 
@@ -30,10 +30,45 @@ center p {
 }
 
 div[ng-app="myApp1"] {
-    background-color: #fff;
+    
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     max-width: 600px;
     margin: 0 auto;
 }
+
+.title{
+    background-color: #ccc;
+    font-size:larger;
+    font-weight:400;
+}
+
+.cl1{
+    background-color: #fac0c0;
+    width: 35em;
+    border: 1px solid #333;
+    padding: 8px 12px;
+}
+
+.cl2{
+    background-color: #fac0c0;
+    width: 35em;
+    border: 1px solid #333;
+    padding: 8px 12px;
+}
+
+.cl3{
+    background-color: #fac0c0;
+    width: 35em;
+    border: 1px solid #333;
+    padding: 8px 12px;
+}
+
+.cl4{
+    background-color: #fac0c0;
+    width: 35em;
+    border: 1px solid #333;
+    padding: 8px 12px;
+}
+
