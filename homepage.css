@@ -5,6 +5,10 @@
     font-family: sans-serif;
 }
 
+.logo img {
+    width: 47px;
+    height: auto;
+}
 
 body {
     background-color: #290b24;
@@ -44,4 +48,79 @@ div[ng-app="myApp1"] {
     background: linear-gradient(rgba(235, 179, 226, 0.5) 30%, rgba(234, 189, 227, 0.7));
     border-radius: 15px; 
     display: block;
+}
+
+/* Main */
+/* Header */
+header.sticky {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    padding: 0 100px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+    background: rgb(233, 191, 237);
+    border-bottom: 1px solid rgba(211, 211, 211, 0.274);
+    transition: all .45s ease;
+}
+
+button{
+    margin:10px auto;
+    color: rgb(13, 1, 13);
+    background: rgb(233, 191, 237);
+    padding: 20px 20px;
+    width: 120px;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #050101;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+/* Navbar styles */
+
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.button a {
+    color:  #290b24;
+}
+
+
+.navbar, .navlist {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    height: 100%;
+}
+
+.navlist {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+}
+
+.navlist a {
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: all .3s ease;
 }
